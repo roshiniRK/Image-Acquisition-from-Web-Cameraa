@@ -78,7 +78,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=smaller_frame
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('KAVINESH M 212222230064',image)
+    cv2.imshow('ROSHINI R K 212222230123',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -99,7 +99,7 @@ while True:
     image[height//2:, :width//2] = smaller_frame 
     image[:height//2, width//2:] = smaller_frame
     image[height//2:, width//2:] = cv2.rotate(smaller_frame,cv2.ROTATE_180)
-    cv2.imshow('KAVINESH M 212222230064', image)
+    cv2.imshow('ROSHINI R K 212222230123', image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -110,20 +110,27 @@ cv2.destroyAllWindows()
 
 ### i) Write the frame as JPG image
 
-
+![image](https://github.com/roshiniRK/Image-Acquisition-from-Web-Cameraa/assets/118956165/faf4cca9-cf90-4e2b-a0bb-23c62dbd06f7)
 
 
 
 ### ii) Display the video
 
+![image](https://github.com/roshiniRK/Image-Acquisition-from-Web-Cameraa/assets/118956165/0f10bd5b-48aa-4cef-af3b-098254879737)
 
 
 ### iii) Display the video by resizing the window
 
 
+![image](https://github.com/roshiniRK/Image-Acquisition-from-Web-Cameraa/assets/118956165/6cb9e17f-bf68-48ea-9a06-9b9f299eb9d4)
+
 
 
 ### iv) Rotate and display the video
+
+
+![image](https://github.com/roshiniRK/Image-Acquisition-from-Web-Cameraa/assets/118956165/79ff9c35-d2ea-4f04-ba96-382b5281e764)
+
 
 
 ## Result:
